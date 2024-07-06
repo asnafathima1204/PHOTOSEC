@@ -1,0 +1,308 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* header */
+.header_section {
+    padding: 0px 25px;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+}
+.custom_nav-container {
+    padding: 0;
+    height: 100%;
+}
+.navbar-brand {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    display: flex;
+    margin: 0;
+    margin-left: 5%;
+}
+.navbar-brand span {
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+}
+.custom_nav-container .btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px 25px;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    transition: all 0.3s;
+    font-size: 15px;
+    margin-left: auto;
+}
+.menu-btn span{
+    color: black;
+    font-size: 60px;
+}
+/* slider_secion */
+.detail-box{
+    align-content: center;
+}
+.slider_section .container h2{
+    font-weight: bolder;
+}
+.image-box img{
+    width:100%;
+}
+.heading_container h2,.team_section h2,.touch_section h2{
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 7px;
+}
+.heading_container h2::before,
+.team_section h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.about_section .detail-box,
+.team_section .detail-box,
+.touch_section .detail-box {
+    background-color: #a34318;
+    padding: 0 20px;
+    color: white;
+}
+.detail-box .btn{
+    display: inline-block;
+    background-color: #85310c;
+    color: #ffffff;
+    padding: 10px 40px;
+    border: 1px solid #85310c;
+    border-radius: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 15px 0;
+}
+/* portfolio_section */
+.portfolio_section {
+    padding: 30px;
+    text-align: center;
+    background-color: #e4e4e4;
+}
+.portfolio_section .heading_container {
+    margin-bottom: 45px;
+}
+.portfolio_section .heading_container h2::before {
+    background-color: #85310c;
+}
+.portfolio_section .col {
+    display: flex;
+    padding: 0 4px;
+  }
+.col img{
+    margin-top: 15px;
+    vertical-align: middle;
+
+}
+.portfolio_section  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width:100%;
+    align-content: center;
+    margin: 0 auto;
+  }
+  .portfolio_section .btn{
+    margin-top: 30px;
+  }
+.image
+{
+   width: 90%;
+   height: 93%;
+   margin: 0 20px;
+
+}
+.img {
+   width: 90%;
+   margin-bottom: 20px;
+   height: 45%;
+}
+/* team_section */
+.team_section .image-box .row{
+    width: 100%;
+    padding: 20px;
+}
+.team_section .image-box img {
+    vertical-align: middle;
+    margin: 20px;
+    border-radius: 10px;
+    border-style: none;
+    width: 95%;
+}
+/* touch_section */
+.touch_section.row{
+    column-gap: 0;
+}
+.touch_section h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 45px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.detail-box .heading_container {
+    margin-bottom: 15px;
+}
+.touch_section .info_contact .contact_link_box {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 400;
+}
+.touch_section .info_social {
+    display: flex;
+    margin-top: 20px;
+}
+.touch_section .info_social a {
+    display: flex;
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 24px;
+}
+.detail_box_common {
+    background-color: #a34318;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    width: 100%;
+}
+.detail_box_common a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* footer_section */
+.footer_section {
+    background-color: #762500;
+    color: #ffffff;
+    padding: 15px;
+    height:auto;
+    align-content: center;
+    font-size: 17px;
+}
+.footer_section ul li{
+    list-style-type: none;
+    display: inline;
+    padding:0 10px;
+}
+.footer_section ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .slider_section .detail-box .detail_content {
+        padding: 70px 10px 0px 10px;
+    }
+    .navbar .center{
+       width: 30%;
+    }
+    .slider_section .image-box{
+        position: absolute;
+    }
+    .slider_section .detail-box {
+        position: relative;
+        z-index: 999999;
+        margin-top: 33em;
+        align-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .footer_section {
+        height: 200px;
+    }
+    .footer_section  .para-box{
+        position: absolute;
+        margin: 1em 0 0 0;
+        width: 100%;
+        align-content: center;
+        text-align: center;
+    }
+    .footer_section  .link-box{
+        position: relative;
+        z-index: 999999;
+        align-content: center;
+        text-align: center;
+    }
+    .navbar-brand span {
+        font-weight: 700;
+        color: white;
+        font-size: 24px;
+    }
+    .menu-btn span{
+        color: white;
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width:480px)
+{
+    .header_section .btn{
+        display: none;
+    }
+    .slider_section .detail-box {
+        position: relative;
+        z-index: 999999;
+        margin-top: 18em;
+        align-content: center;
+        align-items: center;
+    }
+    .footer_section {
+        height: 200px;
+    }
+    .footer_section  .para-box{
+        position: absolute;
+        align-content: center;
+        text-align: center;
+        width: 95%;
+        margin: 3em 0 0 0;
+    }
+    .footer_section  .link-box li{
+        display: block;
+    }
+    .footer_section  .link-box{
+        position: relative;
+        z-index: 999999;
+        align-content: center;
+        text-align: center;
+    }
+    .navbar-brand span {
+        font-weight: 700;
+        color: white;
+        font-size: 24px;
+    }
+    .menu-btn span{
+        color: white;
+        font-size: 60px;
+    }
+
+}
